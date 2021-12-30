@@ -1,0 +1,118 @@
+@import 'utilities';
+@import 'generals';
+@import 'destinations';
+@import 'crew';
+@import 'technology';
+
+
+body {
+    background-image: url(../images/home/background-home-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    //background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+
+    header {
+        padding: 20px;
+        @include flex(row,space-between,center);
+        
+        #header-logo {
+
+            img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+
+        #hamburger-menu {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            width: 24px;
+            height: 21px;
+        }
+
+        nav {
+            position: absolute;
+            z-index: 200;
+            top: 0;
+            right: 0;
+            width: 0;
+            height: 100vh;
+            overflow: hidden;
+            transition: .5s ease;
+            background-color: transparent;
+            backdrop-filter: blur(40px);
+
+            #close-btn {
+                position: absolute;
+                top: 30px;
+                right: 20px;
+                background-color: transparent;
+                border: none;
+                outline: none;
+            }
+
+            ul {
+                margin-top: 100px;
+                list-style-type: none;
+                padding-left: 30px;
+
+                li {
+
+                    margin: 30px 0;
+                    text-transform: uppercase;
+                    a {
+                        color: #eee;
+                        text-decoration: none;
+
+                        span {
+                            font-weight: 600;
+                            color: #fff;
+                            margin-right: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #hero-section {
+        #hero-text {
+            text-align: center;
+            padding: 40px 30px;
+            h3 {
+                color: map-get($neutral-colors, "light-grey" );
+                font-size: 1.2rem;
+                text-transform: uppercase;
+            }
+
+            h1 {
+                color: map-get($neutral-colors, "white");
+                font-size: 4rem;
+                padding: 16px 0;
+                text-transform: uppercase;
+            }
+
+            p {
+                color: map-get($neutral-colors, "light-grey");
+            }
+        }
+
+        #cta-section {
+            @include flex(row,center,center);
+            margin-top: 55px;
+            #cta-btn {
+                display: block;
+                width: 150px;
+                height: 150px;
+                text-align: center;
+                padding: 67px 0;
+                background-color: map-get($neutral-colors, "white");
+                border-radius: 50%;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

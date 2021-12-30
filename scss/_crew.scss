@@ -1,0 +1,88 @@
+@import 'generals';
+@import 'utilities';
+
+#crew-body {
+    background-image: url('../images/crew/background-crew-mobile.jpg');
+
+    #main-section {
+        color: #fff;
+        text-align: center;
+
+
+        h3 {
+            text-transform: uppercase;
+            span {
+                color: #aaa;
+                margin-right: 10px;
+            }
+        }
+
+        #slider-box {
+            
+        .crew-members {
+            transition: all 1s ease;
+            
+            .box {
+                width: 100vw;
+                //padding: 0 30px;   
+            }
+
+            #slider-btns {
+               
+                a {
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    margin: 0 10px;
+                    border-radius: 50%;
+                    background-color: rgba(170, 170, 170, 0.596);
+                    transition: .5s ease;
+                }
+            }
+
+
+        .member-image {
+            width: 100vw;
+            margin: 30px auto;
+            position: relative;
+
+           &::after {
+               content: '';
+               background-color: rgba(170, 170, 170, 0.5);
+               position: absolute;
+               bottom: 2px;
+               height: .1px;
+               width: 80%;
+               left: 50%;
+               transform: translateX(-50%);
+           }
+
+            img {
+                height: 223px;
+                padding-bottom: 0;
+            }
+        }
+
+        .role {
+            color: #aaa;
+            font-size: .9rem;
+            text-transform: uppercase;
+            margin-top: 30px;
+        }
+
+        .member-name {
+            font-size: 1.5rem;
+            margin-top: 10px;
+            text-transform: uppercase;
+        }
+
+        .member-info {
+            color: #ccc;
+            margin-top: 20px;
+            font-size: 1.1rem;
+            padding: 0 30px;
+        }
+    }
+}
+    }
+}

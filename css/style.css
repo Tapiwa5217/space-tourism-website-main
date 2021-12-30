@@ -1,0 +1,454 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Bellefair', serif;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 200;
+}
+
+p {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Bellefair', serif;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 200;
+}
+
+p {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+#destinations-body {
+  background-image: url(../images/destination/background-destination-mobile.jpg);
+  color: #fff;
+  height: fit-content;
+}
+
+#destinations-body #main-section {
+  padding: 0 30px;
+  text-align: center;
+}
+
+#destinations-body #main-section h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+#destinations-body #main-section h3 span {
+  margin-right: 10px;
+  color: #aaa;
+}
+
+#destinations-body #main-section #planet-image {
+  margin-top: 40px;
+}
+
+#destinations-body #main-section #planet-image img {
+  width: 170px;
+  height: 170px;
+}
+
+#destinations-body #main-section ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: .8rem;
+  margin-top: 20px;
+}
+
+#destinations-body #main-section ul li {
+  padding: 0 0 5px 0;
+  margin: 10px;
+  border-bottom: 0px solid #fff;
+  color: #aaa;
+}
+
+#destinations-body #main-section #destination-name {
+  margin: 20px 0;
+}
+
+#destinations-body #main-section #destination-name h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#destinations-body #main-section #destination-name p {
+  color: #ddd;
+}
+
+#destinations-body #main-section #bottom-line {
+  margin-top: 25px;
+  background-color: rgba(170, 170, 170, 0.3);
+  height: .5px;
+  width: 100%;
+}
+
+#destinations-body #main-section .distance {
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+#destinations-body #main-section .distance h3 {
+  font-size: .9rem;
+  color: #aaa;
+}
+
+#destinations-body #main-section .distance p {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+#destinations-body #main-section .time {
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+#destinations-body #main-section .time h3 {
+  font-size: .9rem;
+  color: #aaa;
+}
+
+#destinations-body #main-section .time p {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Bellefair', serif;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 200;
+}
+
+p {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+#crew-body {
+  background-image: url("../images/crew/background-crew-mobile.jpg");
+}
+
+#crew-body #main-section {
+  color: #fff;
+  text-align: center;
+}
+
+#crew-body #main-section h3 {
+  text-transform: uppercase;
+}
+
+#crew-body #main-section h3 span {
+  color: #aaa;
+  margin-right: 10px;
+}
+
+#crew-body #main-section #slider-box .crew-members {
+  transition: all 1s ease;
+}
+
+#crew-body #main-section #slider-box .crew-members .box {
+  width: 100vw;
+}
+
+#crew-body #main-section #slider-box .crew-members #slider-btns a {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: rgba(170, 170, 170, 0.596);
+  transition: .5s ease;
+}
+
+#crew-body #main-section #slider-box .crew-members .member-image {
+  width: 100vw;
+  margin: 30px auto;
+  position: relative;
+}
+
+#crew-body #main-section #slider-box .crew-members .member-image::after {
+  content: '';
+  background-color: rgba(170, 170, 170, 0.5);
+  position: absolute;
+  bottom: 2px;
+  height: .1px;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#crew-body #main-section #slider-box .crew-members .member-image img {
+  height: 223px;
+  padding-bottom: 0;
+}
+
+#crew-body #main-section #slider-box .crew-members .role {
+  color: #aaa;
+  font-size: .9rem;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+#crew-body #main-section #slider-box .crew-members .member-name {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+#crew-body #main-section #slider-box .crew-members .member-info {
+  color: #ccc;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  padding: 0 30px;
+}
+
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Bellefair', serif;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 200;
+}
+
+p {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+#technology-body {
+  background-image: url("../images/technology/background-technology-mobile.jpg");
+}
+
+#technology-body #main-section h3 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#technology-body #main-section h3 span {
+  color: #aaa;
+  margin-right: 10px;
+}
+
+#technology-body #main-section #technology-content #technology-image {
+  margin: 30px 0;
+}
+
+#technology-body #main-section #technology-content #technology-image img {
+  width: 100vw;
+  height: 170px;
+}
+
+#technology-body #main-section #technology-content #slider-btns {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#technology-body #main-section #technology-content #slider-btns a {
+  display: inline-block;
+  padding: 12px 17px;
+  margin: 0 10px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  text-decoration: none;
+  transition: 1s ease;
+}
+
+#technology-body #main-section #technology-content #technology-text {
+  text-align: center;
+}
+
+#technology-body #main-section #technology-content #technology-text #terminology {
+  margin-top: 30px;
+  color: #aaa;
+  font-size: .9rem;
+}
+
+#technology-body #main-section #technology-content #technology-text #technology-name {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+#technology-body #main-section #technology-content #technology-text #technology-info {
+  color: #ccc;
+  padding: 0 30px;
+  margin-top: 20px;
+}
+
+body {
+  background-image: url(../images/home/background-home-mobile.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+body header {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body header #header-logo img {
+  width: 40px;
+  height: 40px;
+}
+
+body header #hamburger-menu {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 24px;
+  height: 21px;
+}
+
+body header nav {
+  position: absolute;
+  z-index: 200;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100vh;
+  overflow: hidden;
+  transition: .5s ease;
+  background-color: transparent;
+  backdrop-filter: blur(40px);
+}
+
+body header nav #close-btn {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+body header nav ul {
+  margin-top: 100px;
+  list-style-type: none;
+  padding-left: 30px;
+}
+
+body header nav ul li {
+  margin: 30px 0;
+  text-transform: uppercase;
+}
+
+body header nav ul li a {
+  color: #eee;
+  text-decoration: none;
+}
+
+body header nav ul li a span {
+  font-weight: 600;
+  color: #fff;
+  margin-right: 20px;
+}
+
+body #hero-section #hero-text {
+  text-align: center;
+  padding: 40px 30px;
+}
+
+body #hero-section #hero-text h3 {
+  color: #D0D6F9;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+body #hero-section #hero-text h1 {
+  color: #ffffff;
+  font-size: 4rem;
+  padding: 16px 0;
+  text-transform: uppercase;
+}
+
+body #hero-section #hero-text p {
+  color: #D0D6F9;
+}
+
+body #hero-section #cta-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+}
+
+body #hero-section #cta-section #cta-btn {
+  display: block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding: 67px 0;
+  background-color: #ffffff;
+  border-radius: 50%;
+  text-transform: uppercase;
+}

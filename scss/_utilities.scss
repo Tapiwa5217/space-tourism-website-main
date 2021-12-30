@@ -1,0 +1,17 @@
+$neutral-colors: (
+ "light-grey": #D0D6F9,
+ "white": #ffffff
+);
+
+@mixin flex($direction,$justify,$align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+};
+
+@mixin mediumScreens() {
+    @media screen and (max-width: 800px) {
+        @content;
+    }
+};
