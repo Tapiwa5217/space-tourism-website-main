@@ -2,7 +2,9 @@ var planetNav = document.querySelector('#main-section ul');
 var planetNavItems = document.querySelectorAll('#main-section ul li');
 
 
-var xhr = new XMLHttpRequest();
+let xhr = new XMLHttpRequest();
+
+xhr.open('GET','../data.json');
 
 xhr.onload = function() {
 
@@ -40,7 +42,5 @@ xhr.onload = function() {
         })
     }
 };
-
-xhr.open("GET", "data.json");
 
 xhr.send();
