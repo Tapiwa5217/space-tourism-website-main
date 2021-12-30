@@ -41,6 +41,6 @@ xhr.onload = function() {
     }
 };
 
-xhr.open("GET", "../data.json");
+xhr.open("GET", "data.json");
 
 xhr.send();
