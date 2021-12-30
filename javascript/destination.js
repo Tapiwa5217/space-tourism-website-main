@@ -6,7 +6,7 @@ var xhr = new XMLHttpRequest();
 
 xhr.onload = function() {
 
-    var response = JSON.parse(this.responseText);
+    var response = JSON.parse(xhr.responseText);
 
     var planetImage = document.querySelector('#planet-image img');
     var destinationName = document.querySelector('#destination-name h1');

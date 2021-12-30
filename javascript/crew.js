@@ -3,7 +3,7 @@ var xhr = new XMLHttpRequest();
 
 xhr.onload = function() {
 
-    var response = JSON.parse(this.responseText);
+    var response = JSON.parse(xhr.responseText);
 
    var memberImg = document.querySelector('.member-image img');
    var role = document.querySelector('.role');

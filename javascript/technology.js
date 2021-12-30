@@ -2,7 +2,7 @@ var xhr = new XMLHttpRequest();
 
 xhr.onload = function() {
 
-    var response = JSON.parse(this.responseText);
+    var response = JSON.parse(xhr.responseText);
 
    var technologyImg = document.querySelector('#technology-image img');
    var technologyName = document.querySelector('#technology-name');
