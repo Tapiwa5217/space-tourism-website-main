@@ -44,6 +44,7 @@ body {
             transition: .5s ease;
             background-color: transparent;
             backdrop-filter: blur(40px);
+            -webkit-backdrop-filter: blur(40px);
 
             #close-btn {
                 position: absolute;

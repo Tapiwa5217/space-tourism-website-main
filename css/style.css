@@ -55,6 +55,7 @@ p {
 }
 
 #destinations-body #main-section {
+  margin-bottom: 20px;
   padding: 0 30px;
   text-align: center;
 }
@@ -178,6 +179,7 @@ p {
 #crew-body #main-section {
   color: #fff;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 #crew-body #main-section h3 {
@@ -274,6 +276,10 @@ p {
 
 #technology-body {
   background-image: url("../images/technology/background-technology-mobile.jpg");
+}
+
+#technology-body #main-section {
+  margin-bottom: 20px;
 }
 
 #technology-body #main-section h3 {
@@ -379,6 +385,7 @@ body header nav {
   transition: .5s ease;
   background-color: transparent;
   backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
 }
 
 body header nav #close-btn {
