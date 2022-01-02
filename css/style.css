@@ -380,7 +380,7 @@ body header nav {
   height: 100vh;
   overflow: hidden;
   transition: .5s ease;
-  background-color: transparent;
+  background-color: rgba(189, 189, 189, 0.1);
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
 }
@@ -391,8 +391,6 @@ body header nav::after {
   width: 100%;
   height: 100%;
   background-color: transparent;
-  backdrop-filter: blur(40px);
-  -webkit-backdrop-filter: blur(40px);
   top: 0;
   right: 0;
   z-index: -100;
