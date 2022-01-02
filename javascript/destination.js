@@ -4,7 +4,7 @@ var planetNavItems = document.querySelectorAll('#main-section ul li');
 
 let xhr = new XMLHttpRequest();
 
-xhr.open('GET','./data.json');
+xhr.open('GET','../data.json');
 
 xhr.onload = function() {
 
@@ -16,7 +16,7 @@ xhr.onload = function() {
     var destinationDistance = document.querySelector('.distance p');
     var destinationTime = document.querySelector('.time p');
 
-    planetImage.src = response.destinations[0].images.png;
+    planetImage.src = response.destinations[0].images.webp;
     destinationName.innerText = response.destinations[0].name;
     destinationInfo.innerText = response.destinations[0].description;
     destinationDistance.innerText = response.destinations[0].distance;
@@ -34,7 +34,7 @@ xhr.onload = function() {
     planetNavItems[i].style.borderBottomWidth = '1px';
     planetNavItems[i].style.color = '#fff';
 
-    planetImage.src = response.destinations[i].images.png;
+    planetImage.src = response.destinations[i].images.webp;
     destinationName.innerText = response.destinations[i].name;
     destinationInfo.innerText = response.destinations[i].description;
     destinationDistance.innerText = response.destinations[i].distance;

@@ -1,5 +1,12 @@
+var crewMembers = document.querySelector('.crew-members');
+var boxes = document.querySelectorAll('.box');
+var sliderBtnsBox = document.querySelector('#slider-btns');
+var sliderBtns = document.querySelectorAll('#slider-btns a');
+
 
 var xhr = new XMLHttpRequest();
+
+xhr.open('GET','../data.json');
 
 xhr.onload = function() {
 
@@ -10,7 +17,7 @@ xhr.onload = function() {
    var memberName = document.querySelector('.member-name');
    var memberInfo = document.querySelector('.member-info');
 
-   memberImg.src = response.crew[0].images.png;
+   memberImg.src = response.crew[0].images.webp;
    role.innerText = response.crew[0].role;
    memberName.innerText = response.crew[0].name;
    memberInfo.innerText = response.crew[0].bio;
@@ -27,7 +34,7 @@ xhr.onload = function() {
         }
 
         sliderBtns[i].style.backgroundColor = '#fff';
-    memberImg.src = response.crew[i].images.png;
+    memberImg.src = response.crew[i].images.webp;
     role.innerText = response.crew[i].role;
     memberName.innerText = response.crew[i].name;
     memberInfo.innerText = response.crew[i].bio;
@@ -39,13 +46,6 @@ xhr.onload = function() {
    }
 };
 
-xhr.open("GET", "../data.json");
-
 xhr.send();
-
-var crewMembers = document.querySelector('.crew-members');
-var boxes = document.querySelectorAll('.box');
-var sliderBtnsBox = document.querySelector('#slider-btns');
-var sliderBtns = document.querySelectorAll('#slider-btns a');
 
 
