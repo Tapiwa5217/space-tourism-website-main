@@ -6,7 +6,7 @@ var sliderBtns = document.querySelectorAll('#slider-btns a');
 
 var xhr = new XMLHttpRequest();
 
-xhr.open('GET','../data.json');
+xhr.open('GET','data.json');
 
 xhr.onload = function() {
 

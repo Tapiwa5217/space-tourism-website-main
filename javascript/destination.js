@@ -4,7 +4,7 @@ var planetNavItems = document.querySelectorAll('#main-section ul li');
 
 let xhr = new XMLHttpRequest();
 
-xhr.open('GET','../data.json');
+xhr.open('GET','data.json');
 
 xhr.onload = function() {
 
